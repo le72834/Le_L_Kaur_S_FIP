@@ -1,0 +1,30 @@
+/*CSS Document */
+
+div, p, body, header, footer, section, article, nav {
+  margin: 0;
+  padding: 0;
+}
+
+/*HTML selectors */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+a {
+  color: #789;
+}
+.siteContainer {
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
