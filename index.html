@@ -6,14 +6,198 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
-  <title>Cowbell Beer Website</title>
+  <title>Cowbell Brewing Co. Website</title>
   <!-- [if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
-
-  
 </head>
 <body>
+  <div class="siteContainer">
+    <header id="mainHeader">
+      <nav id="mainNav">
+      <div id="logo"><a href="#"><img src="images/Logo.png" alt="Logo" width="120"></a></div><!-- Close logo-->
+      <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+
+      <h2 class="hidden">Main navigation</h2>
+      <ul class="menu">
+        <li><a href="#" class="current">Home</a></li>
+        <li><a href="about.html">About </a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="advertisements.html" >Advertisements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+       </nav><!-- Close mainNav -->
+
+    </header><!-- Close mainHeader -->
+    <main>
+
+    <section id="heroImage">
+      <h1 class="">Welcome to Cowbell Brewing Co.</h1>
+      <h2>Craft beer</h2>
+      <p>Available at our store.</p>
+      <a href="#">Learn more</a>
+
+    </section><!-- Close heroImage-->
+    <section id="vid-promo">
+      <picture>
+        <source srcset="images/video_small.jpg" media="(max-width: 600px)">
+          <img src="images/video.jpg" alt="video promo">
+      </picture>
+      <div class="vid-text">
+      <h2>A Few Word About Our Store</h2>
+      <h3>About us</h3>
+      <p>The Original Belgian Wheat Beer. Almost 600 years ago in the Belgian village of Cowbell Brewing Co., a band of monks experimented by adding oddball botanicals from halfway around the world to their traditional wheat beer. </p>
+      <a href="#">Learn more</a>
+      </div>
+    </section><!-- Close vid-promo -->
+    <section id="features">
+      <div class="feature1">
+          <img src="images/quality.png" alt="Quality icon">
+          <h2>Quality products</h2>
+          <p>We work with the best suppliers to offer our customers the fresh grocery products of the highest quality.</p>
+      </div><!-- Close feature1 -->
+      <div class="feature2">
+          <img src="images/money.png" alt="Money icon">
+          <h2>Affordable prices</h2>
+          <p>Thanks to our affordable pricing policy, our customers don’t have to overpay for the products they need.</p>
+      </div><!-- Close feature2 -->
+      <div class="feature3">
+          <img src="images/delivery-truck.png" alt="Truck icon">
+          <h2>Fast shipping</h2>
+          <p>Our store offers fast worldwide shipping to all customers regardless of what and how much you order.</p>
+      </div><!-- Close feature3 -->
+      <div class="feature4">
+          <img src="images/phone-call.png" alt="Phone icon">
+          <h2>Open 24/7</h2>
+          <p>Unlike other grocery shops, we are ready to serve you 24/7 and offer the best selection of groceries.</p>
+      </div><!-- Close feature4 -->
+
+    </section><!-- Close features -->
+    <div class="product-text">
+      <h2>Latest Arrivals</h2>
+      <h3>New products</h3>
+      <ul>
+        <li>All</li>
+        <li>Latest</li>
+        <li>Featured</li>
+        <li>Sale</li>
+      </ul>
+    </div><!-- Close product-text-->
+    <section id="products">
+      <div class="view product1">
+          <img src="images/beer_bottle.png" />
+          <div class="mask">
+          <h3>Apple Ale</h3>
+          <p>$13.00</p>
+          <a href="products.html" class="info">View More</a>
+          </div>
+      </div><!-- Close product1 -->
+      <div class="view product2">
+          <img src="images/beer_bottle.png" />
+          <div class="mask">
+          <h3>Apple Whist</h3>
+          <p>$13.00</p>
+          <a href="products.html" class="info">View More</a>
+        </div>
+      </div><!-- Close product3 -->
+      <div class="view product3">
+          <img src="images/beer_bottle.png" />
+          <div class="mask">
+          <h3>Black Apple</h3>
+          <p>$14.00</p>
+          <a href="products.html" class="info">View More</a>
+        </div>
+      </div><!-- Close product3 -->
+      <div class="view product4">
+          <img src="images/beer_bottle.png" />
+          <div class="mask">
+          <h3>Chocolate Taste</h3>
+          <p>$15.00</p>
+          <a href="products.html" class="info">View More</a>
+        </div>
+      </div><!-- Close product4 -->
+      <div class="view product5">
+          <img src="images/beer_bottle.png" />
+          <div class="mask">
+          <h3>Classic Taste</h3>
+          <p>$13.00</p>
+          <a href="products.html" class="info">View More</a>
+        </div>
+      </div><!-- Close product5 -->
+      <div class="view product6">
+          <img src="images/beer_bottle.png" />
+          <div class="mask">
+          <h3>Extra Taste</h3>
+          <p>$17.00</p>
+          <a href="products.html" class="info">View More</a>
+        </div>
+      </div><!-- Close product6 -->
+    </section><!-- Close products -->
+    <section id="sales">
+      <div class="promo-sale sale1">
+        <h3>Get 15% off</h3>
+        <p>Click to get the promo!</p>
+        <a href="products.html">Shop now</a>
+      </div>
+      <div class="promo-sale sale2">
+        <h3>The best craft beer</h3>
+        <p>Delicate taste and flavor!</p>
+          <a href="products.html">Shop now</a>
+      </div>
+
+    </section><!-- Close sales -->
+  </main><!-- Close main-->
+  <footer id="mainFooter">
+      <div id="footerNav">
+        <nav class="box1">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="advertisements.html">Advertisements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="box2">
+          <h4>Contacts</h4>
+          <p>Address: 523 Sylvan Ave, London, ON.<br>
+            Phone: 226 123 4567 <br>
+            Email: Cowbell@gmail.com</p>
+
+        </div>
+        <div class="box3">
+          <form id="newsletterForm" action="form.php" method="post">
+					<label for="email">Newsletter</label>
+					<input type="email" required id="email" size="30" placeholder="Enter your email">
+					<span class="bar"></span>
+					<input id="submit2" type="submit" value="Submit">
+				</form>
+        </div>
+
+      </div><!-- Close footerNav-->
+      <div class="socialCon">
+        <h4>Get social</h4>
+        <ul id="socialmedia">
+				<li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook Icon"></a></li>
+				<li><a href="https://www.youtube.com/"><img src="images/Youtube.png" alt="Youtube Icon"></a></li>
+				<li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram Icon"></a></li>
+				<li><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter Icon"></a></li>
+			</ul>
+			<div id="copyRight"><!-- Open copyRight -->
+			<h5>2019 Cowbell Brewing Co. All Rights Reserved.</h5>
+			</div><!-- Close copyRight -->
+
+      </div><!-- Close socialCon-->
+
+    </footer><!--Close footer -->
+
+</div><!-- Close site Container-->
+
+<script src="js/main.js"></script>
 
 </body>
 </html>

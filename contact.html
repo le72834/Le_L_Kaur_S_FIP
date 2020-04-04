@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/contact.css" type="text/css" media="screen">
+  <title>Cowbell Brewing Co. Website</title>
+  <!-- [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="siteContainer">
+    <header id="mainHeader">
+      <nav id="mainNav">
+      <div id="logo"><a href="#"><img src="images/Logo.png" alt="Logo" width="120"></a></div><!-- Close logo-->
+      <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+
+      <h2 class="hidden">Main navigation</h2>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About </a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="advertisements.html">Advertisements</a></li>
+        <li><a href="#" class="current">Contact</a></li>
+      </ul>
+       </nav><!-- Close mainNav -->
+
+    </header><!-- Close mainHeader -->
+    <main>
+      <section id="heroImage5">
+        <h1 class="hidden">Welcome to Cowbell</h1>
+        <h2>Contact us</h2>
+        <p>Get know more about us. Find us on the social media!</p>
+      </section><!-- Close heroImage-->
+      <section id="mainContact">
+        <h2 class="hidden">Contact us area</h2>
+        <section class="contactForm">
+          <div class="contactForm-text">
+          <h3>Send us a message</h3>
+          <p>We’d love to hear from you! Whether it’s to share your thoughts about our pubs, or let us know how much you enjoy our ales.</p>
+          </div>
+          <form id="contactForm" action="form.php" method="post">
+          <label for="name"></label>
+          <input type="text" required id="name" name="fullName" size="30" placeholder="Name:">
+
+          <label for="email"></label>
+          <input type="text" required id="email" size="30" placeholder="Email:">
+
+          <label for="comments"></label>
+          <textarea name="comments" id="comments" required cols="40" rows="8" placeholder="Comments"></textarea>
+          <input id="submit" type="submit" value="Send">
+        </form>
+        </section><!--Close contactForm -->
+        <section class="contactArea">
+        <h3>Contact us</h3>
+        <div class="general">
+
+        <h4>General enquiries</h4>
+        <p>Phone: 226-123-1234.<br>
+          Email: CowbellBrewingCo@gmail.com</p>
+        </div><!-- Close general -->
+        <div class="general">
+          <h4>Our shop</h4>
+          <p>Phone: 226-321-4321<br>
+          Email: CowbellBrewingCo@gmail.com</p>
+        </div><!-- Close general -->
+        </section><!-- Close contactArea -->
+      </section><!-- mainContact-->
+      <div class="mapArea">
+          <h3>Visit us</h3>
+          <p>Come to see and visit us!</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.0457244285803!2d-81.43561504919442!3d43.73037697901627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882923da8e66335f%3A0x8f31c127f38a55c6!2sCowbell%20Brewing%20Co.!5e0!3m2!1sen!2sca!4v1585520632720!5m2!1sen!2sca" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div><!-- Close mapArea-->
+    </main><!-- Close main-->
+    <footer id="mainFooter">
+        <div id="footerNav">
+          <nav class="box1">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="about.html">About </a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="advertisements.html">Advertisements</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="box2">
+            <h4>Contacts</h4>
+            <p>Address: 523 Sylvan Ave, London, ON.<br>
+              Phone: 226 123 4567 <br>
+              Email: Cowbell@gmail.com</p>
+
+          </div>
+        <div class="socialCon">
+          <h4>Get social</h4>
+          <ul id="socialmedia">
+          <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook Icon"></a></li>
+          <li><a href="https://www.youtube.com/"><img src="images/Youtube.png" alt="Youtube Icon"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram Icon"></a></li>
+          <li><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter Icon"></a></li>
+        </ul>
+        <div id="copyRight"><!-- Open copyRight -->
+        <h5>2019 Cowbell Brewing Co. All Rights Reserved.</h5>
+        </div><!-- Close copyRight -->
+
+        </div><!-- Close socialCon-->
+
+      </footer><!--Close footer -->
+
+  </div><!-- Close site Container-->
+
+  <script src="js/main.js"></script>
+
+  </body>
+  </html>
