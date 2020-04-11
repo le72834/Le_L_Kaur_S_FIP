@@ -5,7 +5,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 400px;
+  padding-top: 450px;
 
 }
 #heroImage4 h2 {
@@ -13,13 +13,13 @@
   text-transform: uppercase;
   font-weight: bold;
   position: absolute;
-  top: 150px;
+  top: 250px;
   left: 10%;
 }
 #heroImage4 p {
   width: 300px;
   position: absolute;
-  top: 200px;
+  top: 290px;
   left: 10%;
   font-family: Didot;
   line-height: 16px;
@@ -32,7 +32,7 @@
   padding: 13px;
   border-radius: 5px;
   position: absolute;
-  top: 280px;
+    top: 350px;
   left: 10%;
   border: 2px solid #caa462;
   background-image: linear-gradient(45deg, #caa462 50%, transparent 50%);
