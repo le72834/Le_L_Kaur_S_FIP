@@ -1,4 +1,4 @@
-![This is a project about the mashup two brand](image/Logo.png)
+![This is a project about the mashup two brand](images/Logo.png)
 
 # Brand Mashup and Marketing.
 
