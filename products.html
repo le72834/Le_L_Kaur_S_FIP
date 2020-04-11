@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/products.css" type="text/css" media="screen">
+  <link rel="shortcut icon" type="image/png" href="images/Logo.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Cowbell Brewing Co. Website</title>
   <!-- [if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -36,26 +38,38 @@
     <main>
       <section id="heroImage3">
         <h1 class="hidden">Welcome to Cowbell Brewing Co.</h1>
-        <h2>Try the best beer</h2>
+        <h2>Our beer in store</h2>
         <p>Brewing is our life, beer is our water so don’t waste time drinking all kind of other things which won’t make your life better.</p>
-        <a href="#">Learn more</a>
+        <a href="about.html">Learn more</a>
 
       </section><!-- Close heroImage-->
       <div class="lightBox">
-
+          <i id="arrowLeft" class="fa fa-angle-left galleryArrow"></i>
+          <div class="lightBoxCon active">
+              <ul class="lightBoxImages">
+                <li><img class="lightBoxImg currentImage" src="images/products_lightbox_purple.png" alt="Information purple" width="700"></li>
+                <li><img class="lightBoxImg" src="images/products_lightbox_yellow.png" alt="Information yellow" width="700"></li>
+                <li><img class="lightBoxImg" src="images/products_lightbox_red.png" alt="Information red" width="700"></li>
+              </ul>
+          </div><!--Close lightBoxCon -->
+          <i id="arrowRight" class="fa fa-angle-right galleryArrow"></i>
+          <div id="closeLightBox">x</div>
       </div><!-- Close lightBox -->
 
       <div id="productsCon">
         <section id="productsGallery">
           <div class="textZoomCon">
             <p>Click the image to view</p>
-            <i class="fa fa-search-plus zoomIcon"></i>
+
           </div>
+          <div class="hotspot"><img id="askIcon" src="images/ask_icon.png" alt="Asking icon"></div>
+
+
           <h3 class="hidden">Products Gallery</h3>
           <div class="galleryImageCon">
             <picture>
               <source media="(max-width: 600px)" srcset="images/products_medium_cup.jpg" >
-            <img class="galleryImage" src="images/products_large_glass.jpg" alt="Products image large" >
+            <img class="galleryImage" src="images/products_large_glass.jpg" alt="Products image large">
             </picture>
           </div><!-- Close galleryImageCon -->
 
@@ -123,7 +137,7 @@
           <li><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter Icon"></a></li>
         </ul>
         <div id="copyRight"><!-- Open copyRight -->
-        <h5>2019 Cowbell Brewing Co. All Rights Reserved.</h5>
+        <h5>2020 Cowbell Brewing Co. All Rights Reserved.</h5>
         </div><!-- Close copyRight -->
 
         </div><!-- Close socialCon-->

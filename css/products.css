@@ -5,7 +5,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 400px;
+  padding-top: 450px;
 
 }
 #heroImage3 h2 {
@@ -13,13 +13,13 @@
   text-transform: uppercase;
   font-weight: bold;
   position: absolute;
-  top: 150px;
+  top: 250px;
   left: 10%;
 }
 #heroImage3 p {
   width: 300px;
   position: absolute;
-  top: 200px;
+  top: 290px;
   left: 10%;
   font-family: Didot;
   line-height: 16px;
@@ -32,7 +32,7 @@
   padding: 13px;
   border-radius: 5px;
   position: absolute;
-  top: 280px;
+  top: 350px;
   left: 10%;
   border: 2px solid #caa462;
   background-image: linear-gradient(45deg, #caa462 50%, transparent 50%);
@@ -148,4 +148,72 @@
     width: 400px;
 
   }
+}
+.hotspot {
+  position: absolute;
+  margin: 5px 0px 0px 10px;
+  z-index: 1;
+}
+.hotspot img {
+  width: 7%;
+  cursor: pointer;
+}
+/* Mobile version */
+.lightBox {
+  display: none
+}
+/* Desktop version */
+@media screen and (min-width: 938px) {
+.lightBox {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+
+}
+.lightBoxImages {
+  margin: auto;
+  width:700px;
+  overflow: hidden;
+}
+.active {
+  height: 400px;
+}
+.active img {
+  position: absolute;
+  top: -2000px;
+}
+.active img.currentImage {
+  position: absolute;
+  top: 300px;
+}
+.lightBox i {
+  margin: auto;
+  display: block;
+  font-size: 6em;
+  color: #fff;
+  cursor: pointer;
+
+}
+.showLightBox {
+  display: flex;
+}
+
+.preventScrolling {
+  height: 100%;
+  overflow: hidden;
+}
+#closeLightBox {
+  font-size: 40px;
+  position: absolute;
+  top: 130px;
+  right: 70px;
+  cursor: pointer;
+  color: #fff;
+  }
+
 }

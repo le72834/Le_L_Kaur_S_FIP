@@ -5,20 +5,20 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 400px;
+  padding-top: 450px;
 }
 #heroImage2 h2 {
   font-size: 28px;
   text-transform: uppercase;
   font-weight: bold;
   position: absolute;
-  top: 150px;
+  top: 250px;
   left: 10%;
 }
 #heroImage2 p {
   width: 300px;
   position: absolute;
-  top: 220px;
+  top: 290px;
   left: 10%;
   font-family: Didot;
   line-height: 16px;
@@ -31,7 +31,7 @@
   padding: 13px;
   border-radius: 5px;
   position: absolute;
-  top: 300px;
+  top: 350px;
   left: 10%;
   border: 2px solid #caa462;
   background-image: linear-gradient(45deg, #caa462 50%, transparent 50%);
@@ -63,7 +63,7 @@
 	animation: flash 1.5s;
 }
 .storeCon {
-  margin-top:20px;
+  margin-top:10px;
   width: auto;
 
 }
@@ -103,7 +103,7 @@
 .about-text p {
   font-family: Didot;
   line-height: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   width: 300px;
 
 }
@@ -144,7 +144,7 @@
     width: 400px;
   }
   .storeCon img {
-    padding-right: 22px;
+    padding-right: 3px;
   }
 }
 /* Mobile version */
@@ -183,16 +183,13 @@
   width: 300px;
 
 }
-.history1,.history2, .history3 {
-  background: rgba(0,0,0,0.8);
+.history1, .history2, .history3 {
+  background-color: rgba(0,0,0,0.8);
   width: 300px;
   height: 140px;
   margin: 20px;
   padding: 30px 20px;
-  -webkit-animation: zoomIn 3s 1;
-  animation-name: zoomIn 3s 1;
-
-
+	animation: zoomIn 1.5s;
 }
 @-webkit-keyframes zoomIn {
   from {
@@ -289,7 +286,7 @@
     padding: 20px;
     border-radius: 15px;
     position: absolute;
-    top: 1250px;
+    top: 1300px;
     left: 17%;
 
   }
@@ -328,11 +325,10 @@
 
 }
 .enjoyCon{
-  -webkit-animation: zoomIn 5s 1;
-  animation-name: zoomIn 5s 1;
   display: grid;
   justify-content: center;
   text-align: center;
+  animation: zoomIn 1.5s;
 }
 .enjoyCon h3 {
   font-size: 28px;
